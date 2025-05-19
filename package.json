@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
     "express": "^5.1.0"
   },
   "name": "bbk29_expressjs_2",
@@ -11,7 +13,8 @@
   },
   "scripts": {
     "start": "node ej2.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ej2.js"
   },
   "repository": {
     "type": "git",
